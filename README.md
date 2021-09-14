@@ -80,6 +80,7 @@ CovGen -o Agilent_SureSelect_V5_plusUTR \
   -m
 ```
 
+Please make sure to pre-download the SnpEff database using e.g. `java -jar snpEff.jar download GRCh37.74`.
+Also ensure that all input files e.g. FASTA, GTF, and BED are uncompressed.
 
 www.tgen.org
-
